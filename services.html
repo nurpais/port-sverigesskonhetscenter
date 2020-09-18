@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper navbar-white d-flex justify-content-center">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="index.html" class="logo">
+            <img class="navbar-logo__light" src="./gfx/logo-light.svg" alt="" />
+            <img class="navbar-logo__dark" src="./gfx/logo-dark.svg" alt="" />
+            <img
+              class="navbar-logo__dark-min"
+              src="./gfx/logo-dark-min.svg"
+              alt=""
+            />
+          </a>
+          <div class="ml40 d-none d-lg-flex align-items-center">
+            <div class="navbar-divider"></div>
+            <div class="navbar-burger ml40">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <ul class="navbar-menu d-none d-lg-flex">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-salons.html">Våra Salonger</a></li>
+            <li><a href="#">Onlinekonsultation</a></li>
+            <li><a href="contacts.html">Kontakt</a></li>
+          </ul>
+          <a href="#" class="btn btn-white navbar-btn mx-3 mr-lg-0">Boka tid</a>
+          <div class="navbar-burger ml-3 d-lg-none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navbar drawer -->
+      <div id="drawer" class="navbar-drawer">
+        <div id="drawer-content" class="navbar-drawer__content">
+          <!-- Navbar drawer header -->
+          <div class="d-flex justify-content-between">
+            <a href="index.html"
+              ><img src="./gfx/logo-dark-min.svg" alt=""
+            /></a>
+            <div class="d-flex align-items-center">
+              <a href="#" class="btn btn-primary btn-md-sm navbar-btn mr-4"
+                >Boka tid</a
+              >
+              <div id="drawer-close" class="navbar-drawer__close ml-md-2">
+                <img src="./gfx/icon-close.svg" alt="Close" />
+              </div>
+            </div>
+          </div>
+          <div class="navbar-drawer__body">
+            <div>
+              <ul class="navbar-drawer__menu">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="our-salons.html">Våra Salonger</a></li>
+                <li><a href="#">Onlinekonsultation</a></li>
+                <li><a href="contacts.html">Kontakt</a></li>
+              </ul>
+              <ul class="navbar-drawer__submenu mt-3">
+                <li><a href="wordlist.html">Wordlist</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li>
+                  <a
+                    href="https://www.bokadirekt.se/cancel?_ga=2.160787453.1784034777.1598200464-272426990.1597210556"
+                    >Cancellation</a
+                  >
+                </li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="franchise.html">Partnership</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ./navbar -->
+
+    <section class="section-filter pt80 pb120">
+      <div class="container">
+        <h1 class="title-xl text-center">Services</h1>
+        <div class="filter mt40">
+          <!-- Filter nav -->
+          <ul class="filter__nav px-4 px-md-0 py-3 py-md-0">
+            <li>
+              <a data-filter-id="all" class="filter-link active" href="#"
+                >All</a
+              >
+            </li>
+            <li>
+              <a data-filter-id="boost" class="filter-link" href="#">Boost</a>
+            </li>
+            <li>
+              <a data-filter-id="treat" class="filter-link" href="#">Treat</a>
+            </li>
+            <li>
+              <a data-filter-id="relax" class="filter-link" href="#">Relax</a>
+            </li>
+            <li>
+              <a class="filter-link drop-icon" id="filter-drop" href="#"
+                >More Filters</a
+              >
+            </li>
+          </ul>
+          <!-- Filter categories -->
+          <div id="filter-categories" class="filter-categories categories-grid">
+            <div class="category-item py80">
+              <div class="category-item__body">
+                <img src="./gfx/classic-category-icon.svg" alt="Classic" />
+                <h4 class="category-title">Classic</h4>
+                <ul class="category-list mt-3">
+                  <li><a href="service-facial-mask.html">Facials</a></li>
+                  <li><a href="service-waxing.html">Vaxing</a></li>
+                  <li>
+                    <a href="service-eyelash-extension.html"
+                      >Eye Brows & Lasheas</a
+                    >
+                  </li>
+                  <li><a href="service-nail-care.html">Manicure</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="category-item py80">
+              <div class="category-item__body">
+                <img src="./gfx/advanced-category-icon.svg" alt="Advanced" />
+                <h4 class="category-title">Advanced</h4>
+                <ul class="category-list mt-3">
+                  <li><a href="service-infuzion.html">Inzuzion</a></li>
+                  <li><a href="service-dermapen.html">Dermapen4</a></li>
+                  <li><a href="service-ipl-laser.html">IPL</a></li>
+                  <li><a href="service-hydrafacial.html">Hydrafacial</a></li>
+                  <li>
+                    <a href="service-micro-injector.html">MicroInjector</a>
+                  </li>
+                  <li>
+                    <a href="service-micro-injector.html">Dual Injector</a>
+                  </li>
+                  <li><a href="service-dermapen.html">MicroDermabrasion</a></li>
+                  <li>
+                    <a href="service-microneedling.html">MicroNeedling</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="category-item py80">
+              <div class="category-item__body">
+                <img src="./gfx/problems-category-icon.svg" alt="Problems" />
+                <h4 class="category-title">Problems</h4>
+                <ul class="category-list mt-3">
+                  <li><a href="#">Aging Skin</a></li>
+                  <li><a href="#">Combination skin</a></li>
+                  <li><a href="#">Oily Skin</a></li>
+                  <li><a href="#">Blood Vessels</a></li>
+                  <li><a href="#">Unvanted Hair</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="category-item py80">
+              <div class="category-item__body">
+                <img src="./gfx/areas-category-icon.svg" alt="Areas" />
+                <h4 class="category-title">Areas</h4>
+                <ul class="category-list mt-3">
+                  <li><a href="#">Face</a></li>
+                  <li><a href="#">Body</a></li>
+                  <li><a href="#">Nails</a></li>
+                  <li><a href="#">Hair</a></li>
+                  <li><a href="#">Lips</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <a class="text-md text-center category-clear" href="#">
+            <span class="anim-toRight">Clear Specific</span>
+          </a>
+
+          <div class="filter-cards mt40">
+            <div class="filter-card">
+              <a href="service-infuzion.html" class="filter-card item-relax">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/infuzion-small.jpg"
+                    alt="Infuzion"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Infuzion</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-dermapen.html" class="filter-card item-relax">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Dermapen4-small.jpg"
+                    alt="Dermapen4"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Dermapen4</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-hydrafacial.html" class="filter-card item-boost">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/HydraFacial-small.jpg"
+                    alt="HydraFacial"
+                  />
+                </div>
+                <h3 class="text-md mt-4">HydraFacial</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="#" class="filter-card item-boost">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Botox-small.jpg"
+                    alt="Botox"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Botox</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="#" class="filter-card item-boost">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Fillers-small.jpg"
+                    alt="Fillers"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Fillers</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="#" class="filter-card item-boost">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Dual-Injector-small.jpg"
+                    alt="Dual Injector Pro+"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Dual Injector Pro+</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="#" class="filter-card item-boost">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Microgold-small.jpg"
+                    alt="Microgold / Microbotox"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Microgold / Microbotox</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a
+                href="service-microdermabrasion.html"
+                class="filter-card item-treat"
+              >
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Microdermabrasion-small.jpg"
+                    alt="Microdermabrasion"
+                  />
+                </div>
+                <h3 class="text-md mt-4">
+                  <span class="d-none d-xxl-inline-block"
+                    >Microdermabrasion</span
+                  >
+                  <span class="d-xxl-none">Micro dermabrasion</span>
+                </h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a
+                href="service-micro-injector.html"
+                class="filter-card item-treat"
+              >
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Micro-Injector-small.jpg"
+                    alt="Micro Injector"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Micro Injector</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-waxing.html" class="filter-card item-treat">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Vaxning-small.jpg"
+                    alt="Vaxning"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Vaxning</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-fransar.html" class="filter-card item-treat">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Fransar-Bryn-small.jpg"
+                    alt="Fransar & Bryn"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Fransar & Bryn</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-hairdresser.html" class="filter-card item-treat">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Frisör-small.jpg"
+                    alt="Frisör"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Frisör</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-nail-care.html" class="filter-card item-treat">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Nagelvård-small.jpg"
+                    alt="Nagelvård"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Nagelvård</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-ipl-laser.html" class="filter-card item-treat">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/IPL-och-LASER-small.jpg"
+                    alt="IPL och LASER"
+                  />
+                </div>
+                <h3 class="text-md mt-4">IPL och LASER</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a
+                href="service-chemical-peeling.html"
+                class="filter-card item-treat"
+              >
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Kemisk-Peeling-small.jpg"
+                    alt="Kemisk Peeling"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Kemisk Peeling</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-eyelash-extension.html" class="filter-card">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Fransförlängning-small.jpg"
+                    alt="Fransförlängning"
+                  />
+                </div>
+                <h3 class="text-md mt-4">
+                  <span class="d-none d-xxl-inline-block"
+                    >Fransförlängning</span
+                  >
+                  <span class="d-xxl-none">Frans- förlängning</span>
+                </h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="service-microneedling.html" class="filter-card">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Microneedling-small.jpg"
+                    alt="Microneedling"
+                  />
+                </div>
+                <h3 class="text-md mt-4">Microneedling</h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+            <div class="filter-card">
+              <a href="#" class="filter-card">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="w-100"
+                    src="./images/services/Ansiktsbehandlingar-small.jpg"
+                    alt="Ansiktsbehandlingar"
+                  />
+                </div>
+                <h3 class="text-md mt-4">
+                  <span class="d-none d-xxl-inline-block"
+                    >Ansiktsbehandlingar</span
+                  >
+                  <span class="d-xxl-none">Ansik- tsbehandlingar</span>
+                </h3>
+                <p class="filter-card__text mt-2">
+                  Med hjälp av Infuzion kan man leverera en effekt likt fillers
+                  och skinbooster men helt utan nålar. Detta gör att du slipper
+                  bedövning.
+                </p>
+                <div class="btn btn-white--outline mt-4 btn-sm">Read More</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid filter-container px-md-4">
+        <div class="filter mt40"></div>
+      </div>
+    </section>
+
+    <section class="as-section text-center">
+      <div class="container-fluid p-0">
+        <div class="as__wrapper">
+          <img class="as__bg w-100" src="./images/cta-bg.jpg" alt="" />
+          <div class="as__body">
+            <div>
+              <h3 class="title-xl text-white">Have problems with skin?</h3>
+              <p class="mt-3 text-white">
+                Vi är AcneSpecialisten Certifierade Partners, läs mer här
+              </p>
+              <a href="#" class="btn btn-white btn-lg mt-4 icon-link"
+                >Visit Website</a
+              >
+            </div>
+          </div>
+          <a class="as__logo" href="#"
+            ><img src="./gfx/logo-acnespecialisten.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py40 py160md text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 cta-item-wrapper">
+            <div class="cta-item py80 mx-auto">
+              <h3 class="text-lg">Book a Visit</h3>
+              <p class="mt-3 w-max-320 w-max-lg-400 mx-auto cta-text">
+                Meet an experienced esthetician to learn more about your skin
+                and what options there are. the latest and greatest treatments
+              </p>
+              <a href="#" class="btn btn-primary btn-lg mt32"
+                >Online Consultation</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 cta-item-wrapper">
+            <div class="cta-item py80 mx-auto">
+              <h3 class="text-lg">Online Consultation</h3>
+              <p class="mt-3 w-max-320 w-max-lg-400 mx-auto cta-text">
+                Meet an experienced esthetician to learn more about your skin
+                and what options there are. the latest and greatest treatments
+              </p>
+              <a href="#" class="btn btn-primary btn-lg mt32"
+                >Online Consultation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row text-center g-0">
+          <div class="col-md-4 footer-item-wrapper">
+            <div class="footer-item py80">
+              <div class="footer-item__body">
+                <img class="mb32" src="./gfx/locaton-icon.svg" alt="" />
+                <h5 class="text-md d-md-none d-lg-block">
+                  Sveriges Skönhetscenter
+                </h5>
+                <h5 class="text-md">Sundbyberg</h5>
+                <p class="mt-3">Sturegatan 32 Sundbyberg</p>
+                <p>Call: 08-29 61 01</p>
+                <a class="mt-3" href="#"><u>Boka tid</u></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-item-wrapper">
+            <div class="footer-item py80">
+              <div class="footer-item__body">
+                <img class="mb32" src="./gfx/locaton-icon.svg" alt="" />
+                <h5 class="text-md d-md-none d-lg-block">
+                  Sveriges Skönhetscenter
+                </h5>
+                <h5 class="text-md">Södermalm</h5>
+                <p class="mt-3">Hornsgatan 59 Stockholm</p>
+                <p>Call: 08-669 11 01</p>
+                <a class="mt-3" href="#"><u>Boka tid</u></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-item-wrapper">
+            <div class="footer-item py80">
+              <div class="footer-item__body">
+                <img class="mb32" src="./gfx/locaton-icon.svg" alt="" />
+
+                <h5 class="text-md d-md-none d-lg-block">
+                  Sveriges Skönhetscenter
+                </h5>
+                <h5 class="text-md">Östermalm</h5>
+                <p class="mt-3">Karlavägen 36 Stockholm</p>
+                <p>Call: 08-661 74 09</p>
+                <a class="mt-3" href="#"><u>Boka tid</u></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="footer__nav">
+          <li><a href="wordlist.html">Wordlist</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li>
+            <a
+              href="https://www.bokadirekt.se/cancel?_ga=2.160787453.1784034777.1598200464-272426990.1597210556"
+              >Cancellation</a
+            >
+          </li>
+
+          <li><a href="contacts.html">Contact</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="franchise.html">Partnership</a></li>
+        </ul>
+
+        <ul class="footer__social">
+          <li>
+            <a href="#">
+              <img src="./gfx/logo-instagram.svg" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./gfx/logo-facebook.svg" alt="Facebook" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
