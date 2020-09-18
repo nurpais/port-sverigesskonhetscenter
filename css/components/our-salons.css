@@ -1,0 +1,41 @@
+.stats__item {
+  margin-top: 80px;
+}
+
+.img-group {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .stats__item {
+    padding: 0 40px;
+  }
+
+  .img-group {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .img-group {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

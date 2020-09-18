@@ -1,0 +1,122 @@
+.filter__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+  border-left: none;
+}
+
+.filter__nav li {
+  padding: 8px 4px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.filter__nav li a {
+  padding: 6px 24px;
+  border: 1px solid transparent;
+  border-radius: 64px;
+  border: 1px solid #e7e7e7;
+}
+
+.filter__nav li a.active,
+.filter__nav li a:hover {
+  border: 1px solid #4bafa4;
+}
+
+.filter-categories {
+  max-height: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+}
+
+.filter-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 120px 16px;
+  padding: 0 3px;
+  justify-content: center;
+}
+
+.filter-card {
+  text-align: center;
+}
+
+.filter-card p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.category-clear {
+  display: none;
+  padding: 40px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .category-clear {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+/* Icon */
+.drop-icon {
+  position: relative;
+  padding-right: 48px !important;
+}
+
+.drop-icon::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  background-image: url("../../gfx/dropdown-icon.svg");
+  margin-left: 8px;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.active-rotate.drop-icon::after {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .filter-cards {
+    gap: 120px 56px;
+    padding: 0 12px;
+  }
+
+  .filter__nav li {
+    padding: 20px 0;
+  }
+
+  .filter__nav li a {
+    border-color: transparent;
+    border-radius: 64px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .filter-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .filter-cards .filter-card:nth-child(17) {
+    grid-column: 2;
+  }
+}

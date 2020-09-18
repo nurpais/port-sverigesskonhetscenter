@@ -1,0 +1,80 @@
+@import "./libs/bootstrap-reboot.min.css";
+@import "./libs/bootstrap-utilities.min.css";
+@import "./libs/bootstrap-grid.min.css";
+
+@import "./fonts.css";
+@import "./spacing.css";
+@import "./variables.css";
+@import "./helpers.css";
+@import "./animation.css";
+
+@import "./components/hero.css";
+@import "./components/navbar.css";
+@import "./components/buttons.css";
+@import "./components/section-about.css";
+@import "./components/section-categories.css";
+@import "./components/section-experience.css";
+@import "./components/section-as.css";
+@import "./components/section-cta.css";
+@import "./components/footer.css";
+@import "./components/section-video.css";
+@import "./components/accordion.css";
+@import "./components/video.css";
+@import "./components/form.css";
+@import "./components/map.css";
+
+@import "./components/services.css";
+@import "./components/service.css";
+@import "./components/our-salons.css";
+@import "./components/contacts.css";
+@import "./components/wordlist.css";
+@import "./components/career.css";
+@import "./components/franchise.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  background-color: #fff;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

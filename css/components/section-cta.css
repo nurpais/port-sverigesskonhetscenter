@@ -1,0 +1,30 @@
+.cta-text {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.cta-item {
+  margin-right: 32px;
+}
+
+.cta-item-wrapper:first-child .cta-item {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .cta-item-wrapper:first-child .cta-item {
+    border-bottom: none;
+  }
+  .cta-item-wrapper:first-child {
+    border-right: 1px solid #e7e7e7;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cta-text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

@@ -1,0 +1,182 @@
+/* Margin */
+.mt32 {
+  margin-top: 32px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt56 {
+  margin-top: 56px;
+}
+
+.mt80 {
+  margin-top: 80px;
+}
+
+.my40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ml40 {
+  margin-left: 40px;
+}
+
+.ml120 {
+  margin-left: 120px;
+}
+
+.mt120 {
+  margin-top: 120px;
+}
+
+/* Padding */
+.py40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.pt120 {
+  padding-top: 120px;
+}
+
+.pb120 {
+  padding-bottom: 120px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .ml40md {
+    margin-left: 40px;
+  }
+
+  .mt80md {
+    margin-top: 80px;
+  }
+
+  .mt240md {
+    margin-top: 240px;
+  }
+
+  .py160md {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .py240md {
+    padding-top: 240px;
+    padding-bottom: 240px;
+  }
+
+  .pb240md {
+    padding-bottom: 240px;
+  }
+
+  .px112md {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+
+  .pt240md {
+    padding-top: 240px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mt80lg {
+    margin-top: 80px !important;
+  }
+
+  .ml80lg {
+    margin-left: 80px !important;
+  }
+
+  .mr30lg {
+    margin-right: 30px;
+  }
+
+  .pl40lg {
+    padding-left: 40px !important;
+  }
+
+  .pl80lg {
+    padding-left: 80px !important;
+  }
+
+  .pr80lg {
+    padding-right: 80px !important;
+  }
+
+  .ml120lg {
+    margin-left: 120px;
+  }
+
+  .pl120lg {
+    padding-left: 120px !important;
+  }
+
+  .px112lg {
+    padding-left: 112px !important;
+    padding-right: 112px !important;
+  }
+
+  .pr40lg {
+    padding-right: 40px !important;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .pl80xl {
+    padding-left: 80px !important;
+  }
+
+  .pl120xl {
+    padding-left: 120px !important;
+  }
+
+  .pr120xl {
+    padding-right: 120px !important;
+  }
+
+  .px112xl {
+    padding-left: 112px !important;
+    padding-right: 112px !important;
+  }
+
+  .pr80xl {
+    padding-right: 80px !important;
+  }
+}
+
+/* Xx-Large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px) {
+  .pl120xxl {
+    padding-left: 120px !important;
+  }
+
+  .pr120xxl {
+    padding-right: 120px !important;
+  }
+}

@@ -1,0 +1,44 @@
+.experience-text {
+  font-size: 62px;
+  line-height: 62px;
+  color: #f5f5f5;
+  font-family: 'Butler';
+  white-space: nowrap;
+  margin-top: -50px;
+  position: relative;
+  z-index: -1;
+}
+
+@media (min-width: 375px) {
+  .experience-text {
+    font-size: 72px;
+    line-height: 72px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .experience-text {
+    font-size: 140px;
+    line-height: 140px;
+    margin-top: -70px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .experience-text {
+    font-size: 200px;
+    line-height: 200px;
+    margin-top: -70px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .experience-text {
+    font-size: 300px;
+    line-height: 300px;
+    margin-top: -125px;
+  }
+}

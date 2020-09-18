@@ -1,0 +1,68 @@
+.local-video {
+  position: relative;
+}
+
+.local-video::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.local-video::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(153, 87, 193, 0.5);
+  mix-blend-mode: color;
+  opacity: 0.1;
+}
+
+.local-video img {
+  min-height: 524px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+.local-video video {
+  min-height: 524px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.local-video__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+@media (max-width: 767px) {
+  .local-video h3 {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .local-video p {
+    max-width: 343px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/butler/Butler-Bold.woff2") format("woff2"),
+    url("../fonts/butler/Butler-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.text-normal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 28px !important;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-md {
+  font-family: "DM Serif Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.text-lg {
+  font-family: "DM Serif Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.title-xl {
+  font-family: "DM Serif Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  font-family: "DM Serif Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.text-700 {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+a:hover {
+  color: unset;
+}
+
+p {
+  margin: 0;
+}
+
+.content h1 {
+  margin-bottom: 16px;
+}
+
+.content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.content:not(.content-infuzion) p + p {
+  margin-top: 16px;
+}
+
+.content .img-group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 1px;
+}
+
+.content .img-group.cols-3 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content .img-group img {
+  width: 100%;
+}
+
+.content .img-group.no-gap {
+  gap: 0;
+}
+
+.content ul {
+  font-size: 16px;
+  line-height: 28px;
+  list-style: initial;
+  -webkit-padding-start: 20px;
+  padding-inline-start: 20px;
+}
+
+/* Colors */
+.text-grey {
+  color: var(--grey);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .text-md {
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+
+  .text-lg {
+    font-size: 34px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: -0.01em;
+  }
+
+  .title-xl {
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.01em;
+  }
+
+  .content-infuzion p + p {
+    margin-top: 16px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .text-lg {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .title {
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  .title-xl {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}

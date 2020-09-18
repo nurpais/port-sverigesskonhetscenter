@@ -1,0 +1,23 @@
+:root {
+  --primary: #4bafa4;
+  --primary-hover: #57c8bb;
+  --grey: #656565;
+}
+/* 
+.filter .row > * {
+  --bs-gutter-x: 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 400px) {
+  .filter .row > * {
+    --bs-gutter-x: 16px;
+  }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .filter .row > * {
+    --bs-gutter-x: 56px;
+  }
+}

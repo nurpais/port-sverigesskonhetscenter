@@ -1,0 +1,11 @@
+.text-animate {
+  transform: translateY(30px);
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+.text-animate.animate {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  transition: all 0.4s cubic-bezier(0.251, 0.102, 0.25, 1);
+}

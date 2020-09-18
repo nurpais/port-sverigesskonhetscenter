@@ -1,0 +1,90 @@
+.category-item {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.categories-grid .category-item .category-item__body {
+  height: 100%;
+}
+
+.category-item img {
+  width: 62px;
+  height: 62px;
+}
+
+.category-title {
+  font-family: "DM Serif Text", serif;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+}
+
+.category-list li + li {
+  margin-top: 8px;
+}
+
+.category-list a {
+  position: relative;
+}
+
+.category-list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  background-color: #000;
+  height: 1px;
+  width: 0;
+  -webkit-transition: width 0.1s ease-out;
+  -o-transition: width 0.1s ease-out;
+  transition: width 0.1s ease-out;
+}
+
+.category-list a:hover::after {
+  width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .categories-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .categories-grid .category-item {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .categories-grid .category-item:nth-child(odd) .category-item__body {
+    border-right: 1px solid #e7e7e7;
+  }
+
+  .category-item img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .categories-grid .category-item {
+    -ms-flex-preferred-size: initial;
+    flex-basis: initial;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .categories-grid .category-item:not(:last-child) .category-item__body {
+    border-right: 1px solid #e7e7e7;
+  }
+}
